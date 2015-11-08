@@ -11,6 +11,7 @@ import UIKit
 class ViewController: UIViewController, UIGestureRecognizerDelegate {
     @IBOutlet weak var breadIcon: UIImageView!
 
+    @IBOutlet weak var catimg: UIImageView!
     override func viewDidLoad() {
         //PATTERN BACKGROUNG
         super.viewDidLoad()
@@ -26,6 +27,10 @@ class ViewController: UIViewController, UIGestureRecognizerDelegate {
         print("tap tap tap")
         let point = sender.locationInView(self.view)
         breadIcon.center = point
+    }
+    @IBAction func pull(sender: UIPanGestureRecognizer) {
+        let point = sender.locationInView(self.view)
+       catimg.center = point
     }
     
     @IBAction func loong(sender: UILongPressGestureRecognizer) {

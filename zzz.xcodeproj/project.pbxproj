@@ -16,6 +16,7 @@
 		8D592CF91BEF75240009CE68 /* folder.ico in Resources */ = {isa = PBXBuildFile; fileRef = 8D592CF81BEF75240009CE68 /* folder.ico */; settings = {ASSET_TAGS = (); }; };
 		8D592CFB1BEF7CE70009CE68 /* backgr.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 8D592CFA1BEF7CE70009CE68 /* backgr.jpg */; settings = {ASSET_TAGS = (); }; };
 		8D592CFD1BEF80890009CE68 /* UIColor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8D592CFC1BEF80890009CE68 /* UIColor.swift */; settings = {ASSET_TAGS = (); }; };
+		8D592CFF1BEF89D70009CE68 /* catcat.png in Resources */ = {isa = PBXBuildFile; fileRef = 8D592CFE1BEF89D70009CE68 /* catcat.png */; settings = {ASSET_TAGS = (); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -30,6 +31,7 @@
 		8D592CF81BEF75240009CE68 /* folder.ico */ = {isa = PBXFileReference; lastKnownFileType = image.ico; path = folder.ico; sourceTree = "<group>"; };
 		8D592CFA1BEF7CE70009CE68 /* backgr.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = backgr.jpg; sourceTree = "<group>"; };
 		8D592CFC1BEF80890009CE68 /* UIColor.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UIColor.swift; sourceTree = "<group>"; };
+		8D592CFE1BEF89D70009CE68 /* catcat.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = catcat.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -71,6 +73,7 @@
 				8D592CF61BEF627A0009CE68 /* 2.ico */,
 				8D592CF81BEF75240009CE68 /* folder.ico */,
 				8D592CFA1BEF7CE70009CE68 /* backgr.jpg */,
+				8D592CFE1BEF89D70009CE68 /* catcat.png */,
 				8D592CF01BEF4E240009CE68 /* Info.plist */,
 			);
 			path = zzz;
@@ -135,6 +138,7 @@
 			files = (
 				8D592CF71BEF627A0009CE68 /* 2.ico in Resources */,
 				8D592CFB1BEF7CE70009CE68 /* backgr.jpg in Resources */,
+				8D592CFF1BEF89D70009CE68 /* catcat.png in Resources */,
 				8D592CEF1BEF4E240009CE68 /* LaunchScreen.storyboard in Resources */,
 				8D592CEC1BEF4E240009CE68 /* Assets.xcassets in Resources */,
 				8D592CEA1BEF4E240009CE68 /* Main.storyboard in Resources */,

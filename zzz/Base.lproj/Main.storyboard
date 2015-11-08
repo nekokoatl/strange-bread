@@ -20,6 +20,10 @@
                                 <rect key="frame" x="201" y="144" width="256" height="256"/>
                                 <animations/>
                             </imageView>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="catcat.png" translatesAutoresizingMaskIntoConstraints="NO" id="jNw-xF-lg9">
+                                <rect key="frame" x="36" y="52" width="115" height="156"/>
+                                <animations/>
+                            </imageView>
                         </subviews>
                         <animations/>
                         <color key="backgroundColor" red="0.40000000600000002" green="1" blue="0.80000001190000003" alpha="1" colorSpace="calibratedRGB"/>
@@ -27,10 +31,12 @@
                         <connections>
                             <outletCollection property="gestureRecognizers" destination="Jpt-9C-ckN" appends="YES" id="CmQ-rK-dF8"/>
                             <outletCollection property="gestureRecognizers" destination="laZ-Na-78I" appends="YES" id="e3h-P1-9Si"/>
+                            <outletCollection property="gestureRecognizers" destination="a43-eG-6eG" appends="YES" id="KLU-Nb-MEn"/>
                         </connections>
                     </view>
                     <connections>
                         <outlet property="breadIcon" destination="YzM-Pz-vOO" id="IIi-uN-hSr"/>
+                        <outlet property="catimg" destination="jNw-xF-lg9" id="WRE-N8-ry6"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
@@ -45,10 +51,16 @@
                         <outlet property="delegate" destination="BYZ-38-t0r" id="l7W-H9-P4f"/>
                     </connections>
                 </pongPressGestureRecognizer>
+                <panGestureRecognizer minimumNumberOfTouches="1" id="a43-eG-6eG">
+                    <connections>
+                        <action selector="pull:" destination="BYZ-38-t0r" id="MtN-t8-Yb1"/>
+                    </connections>
+                </panGestureRecognizer>
             </objects>
         </scene>
     </scenes>
     <resources>
+        <image name="catcat.png" width="115" height="156"/>
         <image name="folder.ico" width="256" height="256"/>
     </resources>
 </document>
