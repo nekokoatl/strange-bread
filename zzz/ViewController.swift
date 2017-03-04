@@ -23,19 +23,19 @@ class ViewController: UIViewController, UIGestureRecognizerDelegate {
     }
     
     //функция в скобочках. таргет протягивается
-    @IBAction func tapTapTap(sender: UITapGestureRecognizer) {
+    @IBAction func tapTapTap(_ sender: UITapGestureRecognizer) {
         print("tap tap tap")
-        let point = sender.locationInView(self.view)
+        let point = sender.location(in: self.view)
         breadIcon.center = point
     }
-    @IBAction func pull(sender: UIPanGestureRecognizer) {
-        let point = sender.locationInView(self.view)
+    @IBAction func pull(_ sender: UIPanGestureRecognizer) {
+        let point = sender.location(in: self.view)
        catimg.center = point
     }
     
-    @IBAction func loong(sender: UILongPressGestureRecognizer) {
+    @IBAction func loong(_ sender: UILongPressGestureRecognizer) {
         view.backgroundColor = UIColor(red:0.93, green:0.42, blue:0.37, alpha:1)
-        if sender.state == UIGestureRecognizerState.Ended {
+        if sender.state == UIGestureRecognizerState.ended {
             //картинка
             self.view.backgroundColor = UIColor.myBackground()
             
